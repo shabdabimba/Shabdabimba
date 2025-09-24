@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ne">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>शब्दबिम्ब — ShabdaBimba</title>
+  <meta name="description" content="शब्दबिम्ब: साहित्य, समाचार र विचारहरूको वेब सङ्ग्रह। लेख, ब्लग र सञ्चारका लागि केन्द्र।" />
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    :root{ --accent:#6b3e2e; --muted:#6b6b6b; --bg:#fdfcf9; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial; background:var(--bg); color:#111}
+    header{background:white;padding:10px 18px;box-shadow:0 2px 6px rgba(20,20,20,0.06); position:sticky;top:0;z-index:50}
+    .container{max-width:1024px;margin:0 auto}
+    .logo img{height:50px}
+    nav a{margin-left:18px;color:#222;text-decoration:none}
+    .hero{padding:56px 18px 24px}
+    .hero-grid{display:flex;flex-wrap:wrap;align-items:center;gap:24px}
+    .hero-left{flex:1;min-width:260px}
+    .hero-right{flex:1;min-width:260px}
+    h1{font-size:32px;margin:0 0 8px}
+    p.lead{color:var(--muted);margin:0 0 16px}
+    .btn{display:inline-block;padding:10px 16px;border-radius:8px;background:var(--accent);color:white;text-decoration:none}
+    .card{background:white;padding:18px;border-radius:12px;box-shadow:0 4px 18px rgba(30,30,30,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
+    section{padding:18px 0}
+    footer{padding:18px 0;color:var(--muted);font-size:14px}
+    .post-title{margin:0 0 6px}
+    .meta{color:var(--muted);font-size:13px}
+    form input, form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #ddd;margin-bottom:10px}
+    @media(max-width:720px){nav{float:none;text-align:right;margin-top:8px} .hero-grid{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between">
+      <a class="logo" href="#"><img src="logo.png" alt="शब्दबिम्ब लोगो" /></a>
+      <nav>
+        <a href="#about">हाम्रोबारे</a>
+        <a href="#articles">लेख</a>
+        <a href="#portfolio">पोर्टफोलियो</a>
+        <a href="#contact">सम्पर्क</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-left">
+          <h1>शब्दबिम्ब — विचार, कथा र पत्रकारिता</h1>
+          <p class="lead">लेखक र पत्रकारहरूको लागि अनलाइन घर: साँच्चैको कथाहरू, विचारशील ब्लग र ताजा समाचार।</p>
+          <a class="btn" href="#articles">भर्खरका लेखहरू पढ्नुहोस्</a>
+        </div>
+        <div class="hero-right card">
+          <h3>हाम्रा प्रमुख सेवालाई छिटो हेरौं</h3>
+          <ul style="padding-left:18px;margin:8px 0">
+            <li>दैनिक लेख र ब्लग</li>
+            <li>सम्पादन र सामग्री निर्माण</li>
+            <li>पत्रिकात्मक रिपोर्टिङ र अनुसन्धान</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="card">
+        <h2>हाम्रोबारे</h2>
+        <p>शब्दबिम्बले नेपाली भाषामा गुणस्तरीय सामग्री उत्पादन गर्ने लक्ष्य राख्छ — सृजनात्मक कथा, विचार-प्रधान ब्लग, र तथ्यपूर्ण पत्रकारिता। हामी स्वतन्त्र लेखक, पत्रकार र संपादकहरूको सञ्जाल हौं।</p>
+      </div>
+    </section>
+
+    <section id="articles">
+      <h2>भर्खरका लेख</h2>
+      <div class="grid">
+        <article class="card">
+          <h3 class="post-title">नेपालको साना शहरका कथा</h3>
+          <div class="meta">लेखक: अरु | १२ सेप्टेम्बर २०२५</div>
+          <p class="lead">साना शहरका बदलिँदो जीवनशैली र स्थानीय संस्कृतिमा आधारित एक छोटो कथा संग्रह।</p>
+          <a href="#" class="btn">पूरा पढ्नुहोस्</a>
+        </article>
+
+        <article class="card">
+          <h3 class="post-title">रोजगारी र मिडिया</h3>
+          <div class="meta">लेखक: शिखा | १० सेप्टेम्बर २०२५</div>
+          <p class="lead">मिडिया क्षेत्रमा रोजगारी खोज्ने नयाँ तरिकाहरू र तयारीका सुझावहरू।</p>
+          <a href="#" class="btn">पूरा पढ्नुहोस्</a>
+        </article>
+
+        <article class="card">
+          <h3 class="post-title">राष्ट्रभक्ति र साहित्य</h3>
+          <div class="meta">लेखक: अनिल | ०५ सेप्टेम्बर २०२५</div>
+          <p class="lead">साहित्यले देशभक्ति कसरी आकार दिन्छ — एक विश्लेषण।</p>
+          <a href="#" class="btn">पूरा पढ्नुहोस्</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>पोर्टफोलियो</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>इन्भेस्टिगेटिभ रिपोर्ट</h4>
+          <p class="meta">प्रकाशित: जनवरी २०२५</p>
+          <p>दीर्घकालीन अनुसन्धानमा आधारित रिपोर्ट र डेटा-समर्थनको उदाहरण।</p>
+        </div>
+        <div class="card">
+          <h4>ब्लग सिरिज</h4>
+          <p class="meta">प्रकाशित: मार्च २०२५</p>
+          <p>साहित्य र यात्रा ब्लगहरूको श्रृंखला।</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>सम्पर्क</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>हामीलाई लेख्नुहोस्</h4>
+          <form onsubmit="submitContact(event)">
+            <input id="name" type="text" placeholder="नाम" required />
+            <input id="email" type="email" placeholder="इमेल" required />
+            <textarea id="message" rows="5" placeholder="तपाईंको सन्देश" required></textarea>
+            <button class="btn" type="submit">पठाउनुहोस्</button>
+          </form>
+          <p id="contact-result" style="margin-top:10px;color:green;display:none">धन्यवाद! हामी तपाईंलाई चाँडै सम्पर्क गर्छौं।</p>
+        </div>
+        <div class="card">
+          <h4>ठेगाना</h4>
+          <p class="meta">काठमाडौँ, नेपाल</p>
+          <p>फोन: +977-98X-XXX-XXXX<br/>इमेल: info@shabdabimba.com.np</p>
+          <p>सामाजिक: <a href="https://www.facebook.com/share/19Xj5rDqpV/" target="_blank">Facebook</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center">
+      <div>© २०२५ शब्दबिम्ब — सबै अधिकार सुरक्षित</div>
+      <div><a href="#">गोपनीयता नीति</a></div>
+    </div>
+  </footer>
+
+  <script>
+    function submitContact(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      console.log({name,email,message});
+      document.getElementById('contact-result').style.display = 'block';
+      document.querySelector('form').reset();
+    }
+  </script>
+</body>
+</html>
